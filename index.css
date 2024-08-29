@@ -5,6 +5,13 @@ h1{
     text-align: center;
 }
 
+#box{
+    background-color: rgb(0 0 0 / 70%);
+    width: 300;
+    margin: auto;
+    border: dashed 2px white;
+}
+
 body{
     background-image: url("background.jpg");
     background-size: cover;
@@ -32,6 +39,7 @@ button{
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    border: solid 2px white;
 }
 
 div{

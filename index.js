@@ -33,7 +33,11 @@ function startGame(){
     sum = firstCard + secondCard
     player.cash-=50
     playerEl.textContent = player.name + ": $" + player.cash
-    renderGame()
+    if(player.cash < 50){
+        playerEl.textContent = "Not enough cash to play!"
+    }else{
+        renderGame()
+    }
 }
 
 function renderGame(){

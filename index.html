@@ -3,17 +3,19 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>Blackjack</h1>
-        <p id="message-el">Want to play a round?</p>
-        <p id="cards-el">Cards: </p>
-        <p id="sum-el">Sum: </p>
-        <div>
-            <button onclick="startGame()">START GAME</button>
+        <div id="box">
+            <h1>Blackjack</h1>
+            <p id="message-el">Want to play a round?</p>
+            <p id="cards-el">Cards: </p>
+            <p id="sum-el">Sum: </p>
+            <div>
+                <button onclick="startGame()">START GAME</button>
+            </div>
+            <div>
+                <button onclick="newCard()">NEW CARD</button>
+            </div>
+            <p id="player-el"></p>
         </div>
-        <div>
-            <button onclick="newCard()">NEW CARD</button>
-        </div>
-        <p id="player-el"></p>
         <script src="index.js"></script>
     </body>
 </html>
